@@ -2,12 +2,12 @@ package org.example.palindrome;
 
 public class PalindromeCheck {
 
-String result;
-String checkResultString;
+private String result;
+private String checkResultString;
+private boolean hasRunOnce = false;
 
-boolean hasRunOnce = false;
-
-    String[] ignoreCharacters = new String[]{"!",",", ".", "@", "+", "-", "£", "$", "%", "&", "*", "(", ")", ":", ";", "[", "]", "'", "\""};
+//List of characters the program will ignore
+String[] ignoreCharacters = new String[]{"!",",", ".", "@", "+", "-", "£", "$", "%", "&", "*", "(", ")", ":", ";", "[", "]", "'", "\""};
 
     private boolean checkSpaceAndSpecialCharacters(char checkingCharacter){
         //            check for special character and space
@@ -23,6 +23,7 @@ boolean hasRunOnce = false;
     }
 
     private void calculatePalindrome(String string){
+        //temp variable for result
         String result = "";
 
 //        loop the word
@@ -40,14 +41,12 @@ boolean hasRunOnce = false;
 //        recursively run the function once to check the string again
         if (!isHasRunOnce()){
 //        set results
-            System.out.println(result);
             setResult(result);
             setHasRunOnce(true);
 //            recursive function
             calculatePalindrome(getResult());
         } else {
 //        set initial formatted word by printing the result backwards
-            System.out.println(result);
             setCheckResultString(result);
         }
 
@@ -56,15 +55,12 @@ boolean hasRunOnce = false;
 
         calculatePalindrome(string);
 
-//        convert to uppercase for check
-        if (getResult().toUpperCase().equals(getCheckResultString().toUpperCase())){
-
-//        if (string.toUpperCase().equals(result.toUpperCase())){
+//        use String equals function to check the values
+        if (getResult().equals(getCheckResultString())){
             return true;
         } else {
             return false;
         }
-
     }
 
     public String getResult() {
