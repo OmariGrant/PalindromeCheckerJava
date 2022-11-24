@@ -12,7 +12,7 @@ class PalindromeCheckTest {
     @ParameterizedTest
     @ValueSource(strings = {"wow", "Don't nod", "Top Spot", "My gym!"})
     void isPalindrome(String string) {
-        PalindromeCheck palindromeCheck = new PalindromeCheck();
+        PalindomeCheckable palindromeCheck = new PalindromeCheck();
         assertTrue(palindromeCheck.isPalindrome(string));
 
     }
@@ -20,12 +20,20 @@ class PalindromeCheckTest {
     @ParameterizedTest
     @ValueSource(strings = {"wow", "Don't nod", "Top Spot", "My gym!"})
     void isPalindromeEqual(String string) {
-        PalindromeCheck palindromeCheck = new PalindromeCheck();
+        PalindomeCheckable palindromeCheck = new PalindromeCheck();
         palindromeCheck.isPalindrome(string);
         assertEquals(palindromeCheck.getResult(), palindromeCheck.getCheckResultString());
 
     }
 
+    @ParameterizedTest
+    @ValueSource(strings = {"wow", "Don't nod", "Top Spot", "My gym!"})
+    void isPalindromeArray(String string) {
+        String[] strings = {"wow", "Don't nod", "Top Spot", "My gym!"};
+        PalindomeCheckable palindromeCheck = new ArrayPalindromeCheck(strings);
+        assertTrue(palindromeCheck.isPalindrome(string));
+
+    }
     @Test
     @DisplayName("Given a string with ' return true from is Palindrome")
     void givenAStringwithApostrophy_returnTrue(){

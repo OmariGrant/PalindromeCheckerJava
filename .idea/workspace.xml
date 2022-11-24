@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="480e749f-d2bd-4cb5-aedf-d4110d626f36" name="Changes" comment="Passing tests">
+    <list default="true" id="480e749f-d2bd-4cb5-aedf-d4110d626f36" name="Changes" comment="cleanup&#10;added comments&#10;encapsulated fields">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/ArrayPalindromeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/Feeder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindomeCheckable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/StringPalindromeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/ignoredCharactersEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/palindrome/PalindromeCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/palindrome/PalindromeCheckTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669326532583</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cleanup&#10;added comments&#10;encapsulated fields">
+      <created>1669326885463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669326885464</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Readme" />
     <MESSAGE value="Passing tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passing tests" />
+    <MESSAGE value="cleanup&#10;added comments&#10;encapsulated fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup&#10;added comments&#10;encapsulated fields" />
   </component>
 </project>
