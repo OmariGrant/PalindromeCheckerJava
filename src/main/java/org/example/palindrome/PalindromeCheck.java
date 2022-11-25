@@ -1,5 +1,7 @@
 package org.example.palindrome;
 
+import java.util.Objects;
+
 public class PalindromeCheck implements PalindomeCheckable{
     private String string;
 private String result;
@@ -78,8 +80,32 @@ private final String[] ignoreCharacters = new String[]{"!",",", ".", "@", "+", "
         }
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+//        if (o == null || PalindromeCheck.class != o.getClass()) return false;
+        PalindromeCheck palindromeCheck = (PalindromeCheck) o;
+        if (!(o instanceof PalindromeCheck that)) return false;
+        if (getResult() == null || palindromeCheck.getResult() == null) return (getString().equals(that.getString()) || getString() == that.getString());
 
-@Override
+
+            return (getString().equals(that.getString()) || getString() == that.getString())
+                    &&
+                    (getResult().equals(that.getResult()) || getString() == that.getResult());
+
+    }
+
+    @Override
+    public String toString() {
+        return string;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getString(), getResult());
+    }
+
+    @Override
     public String getResult() {
         return result;
     }

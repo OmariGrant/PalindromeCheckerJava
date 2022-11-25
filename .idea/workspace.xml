@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="480e749f-d2bd-4cb5-aedf-d4110d626f36" name="Changes" comment="cleanup&#10;added comments&#10;encapsulated fields">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/ArrayPalindromeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/Feeder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindomeCheckable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/StringPalindromeCheck.java" afterDir="false" />
+    <list default="true" id="480e749f-d2bd-4cb5-aedf-d4110d626f36" name="Changes" comment="Implemented child class for array of strings&#10;Passed tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/palindrome/EqualsContractPalindromeCheckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/ArrayPalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/ArrayPalindromeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/Feeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/Feeder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/StringPalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/StringPalindromeCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/palindrome/PalindromeCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/palindrome/PalindromeCheckTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -43,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -96,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669326885464</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented child class for array of strings&#10;Passed tests">
+      <created>1669333737147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669333737148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +123,33 @@
     <MESSAGE value="Created Readme" />
     <MESSAGE value="Passing tests" />
     <MESSAGE value="cleanup&#10;added comments&#10;encapsulated fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup&#10;added comments&#10;encapsulated fields" />
+    <MESSAGE value="Implemented child class for array of strings&#10;Passed tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented child class for array of strings&#10;Passed tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/palindrome/EqualsContractPalindromeCheckTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/palindrome/EqualsContractPalindromeCheckTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
