@@ -22,17 +22,20 @@ public class ArrayPalindromeCheck extends PalindromeCheck {
             this.resultArray.remove(i);
         }
     }
+
+
+//    must implement this function to meet SOLID - Mainly SOLD
     @Override
     public void calculatePalindrome(String string) {
 //        loop through array list of string
         ArrayList<Integer> notPalidrome = new ArrayList<Integer>();
         for (int i = 0; i <= this.resultArray.toArray().length-1; i++) {
-            super.calculatePalindrome(string);
+//            super.calculatePalindrome(string);
             if (!super.isPalindrome(this.resultArray.toArray()[i].toString())){
-                notPalidrome.remove(i);
+//                notPalidrome.remove(i);
             }
         }
-        generateResults(notPalidrome);
+//        generateResults(notPalidrome);
 
     }
 

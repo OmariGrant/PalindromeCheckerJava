@@ -27,6 +27,11 @@ Began looking at the hashcode and equals contract
 
 Tested Strings and Array of Strings as a input and confirmed the results are equal
 
+More test conditions to be met and implemented 
+
+## Coverage
+- 60%
+
 ## Task 
 
 Create a method that takes a String as parameter and returns whether that String is a palindrome.

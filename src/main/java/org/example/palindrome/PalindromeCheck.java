@@ -9,7 +9,7 @@ private String checkResultString;
 private boolean hasRunOnce = false;
 
 //List of characters the program will ignore
-private final String[] ignoreCharacters = new String[]{"!",",", ".", "@", "+", "-", "£", "$", "%", "&", "*", "(", ")", ":", ";", "[", "]", "'", "\""};
+private final String[] ignoreCharacters = new String[]{"!",",", ".", "@", "+", "-", "£", "$", "%", "&", "*", "(", ")", ":", ";", "[", "]", "'", "\"", "?"};
 
     public PalindromeCheck() {
     }

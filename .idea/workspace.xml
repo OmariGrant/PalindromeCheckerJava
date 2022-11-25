@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="480e749f-d2bd-4cb5-aedf-d4110d626f36" name="Changes" comment="Implemented child class for array of strings&#10;Passed tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/palindrome/EqualsContractPalindromeCheckTest.java" afterDir="false" />
+    <list default="true" id="480e749f-d2bd-4cb5-aedf-d4110d626f36" name="Changes" comment="Begin equals and hashcode testing and implementation&#10;Testing Array implementation&#10;Updated readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/ArrayPalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/ArrayPalindromeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/Feeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/Feeder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/palindrome/StringPalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/palindrome/StringPalindromeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/palindrome/PalindromeCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/palindrome/PalindromeCheckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/palindrome/EqualsContractPalindromeCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/palindrome/EqualsContractPalindromeCheckTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669333737148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Begin equals and hashcode testing and implementation&#10;Testing Array implementation&#10;Updated readme">
+      <created>1669340435338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669340435339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,14 +127,15 @@
     <MESSAGE value="Passing tests" />
     <MESSAGE value="cleanup&#10;added comments&#10;encapsulated fields" />
     <MESSAGE value="Implemented child class for array of strings&#10;Passed tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented child class for array of strings&#10;Passed tests" />
+    <MESSAGE value="Begin equals and hashcode testing and implementation&#10;Testing Array implementation&#10;Updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Begin equals and hashcode testing and implementation&#10;Testing Array implementation&#10;Updated readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/palindrome/EqualsContractPalindromeCheckTest.java</url>
-          <line>32</line>
+          <line>38</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -143,11 +147,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/palindrome/PalindromeCheck.java</url>
           <line>91</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/palindrome/EqualsContractPalindromeCheckTest.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

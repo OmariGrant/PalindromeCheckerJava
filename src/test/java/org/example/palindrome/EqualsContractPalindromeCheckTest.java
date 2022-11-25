@@ -25,6 +25,12 @@ class EqualsContractPalindromeCheckTest {
     PalindomeCheckable PalindromeCheck00 = new PalindromeCheck(string21);
     PalindomeCheckable PalindromeCheck111 = new PalindromeCheck(string22);
     PalindomeCheckable PalindromeCheck222 = new PalindromeCheck(string23);
+    @Test
+    void testEqualsArray() {
+                assertTrue(arrayPalindromeCheck1.equals(arrayPalindromeCheck));
+                assertTrue(arrayPalindromeCheck1.equals(arrayPalindromeCheck11));
+                assertTrue(arrayPalindromeCheck.equals(arrayPalindromeCheck11));
+    }
 
     @Test
     void testEquals() {
@@ -33,21 +39,18 @@ class EqualsContractPalindromeCheckTest {
         assertTrue(PalindromeCheck.equals(PalindromeCheck0));
         assertTrue(PalindromeCheck1.equals(PalindromeCheck11));
         assertTrue(PalindromeCheck2.equals(PalindromeCheck22));
-//        assertTrue(arrayPalindromeCheck1.equals(arrayPalindromeCheck));
 
 
         // y equal z
         assertTrue(PalindromeCheck0.equals(PalindromeCheck00));
         assertTrue(PalindromeCheck11.equals(PalindromeCheck111));
         assertTrue(PalindromeCheck22.equals(PalindromeCheck222));
-//        assertTrue(arrayPalindromeCheck1.equals(arrayPalindromeCheck11));
 
 
         // x equal z
         assertTrue(PalindromeCheck.equals(PalindromeCheck00));
         assertTrue(PalindromeCheck1.equals(PalindromeCheck111));
         assertTrue(PalindromeCheck2.equals(PalindromeCheck222));
-        assertTrue(arrayPalindromeCheck.equals(arrayPalindromeCheck11));
     }
 
     @Test
